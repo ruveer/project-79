@@ -1,6 +1,7 @@
 body{
 	background-image: url("images/Bg.jpg");
 	/* background-repeat: no-repeat; */
+	background-repeat: no-repeat;
 }
 
 .topnav {
@@ -77,7 +78,8 @@ body{
 
   #add_toppings{
 	/* padding-left:30px; */
-	width:150px;
+	padding-left: 30px;
+	width:200px;
 	height:100px;
 	border: none;
 	background-color:#e2062c;
@@ -108,5 +110,14 @@ body{
 
 #im1{
 	width:100px;
+	height: 80px;
+}
+.cards{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.card img{
+	width: 100px;
 	height: 80px;
 }
